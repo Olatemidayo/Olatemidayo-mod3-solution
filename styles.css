@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    font-family: 'oxygen', sans-serif;
+}
+#header-nav {
+    background-color: rgb(82, 192, 192);
+    border-radius: 15px;
+    border: 0;
+    border-radius: 0;
+}
+.container {
+    height: 1000px;
+    width: auto;
+}
+.navbar-brand h1 {
+    margin: auto;
+    font-family: 'lora', serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+}
+.row {
+    width: 100%;
+}
+.navbar-brand { 
+    padding: 15px;   
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+}
+#nav-list {
+    margin-top: 60px;
+    width: auto;
+}
+#nav-list a {
+    color: #222;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: auto;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: aliceblue;
+}
+#nav-list a:hover {
+    background: lightskyblue;
+}
+.container-fluid {
+        width: auto;
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: xx-large;
+        color: #222;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid h1 {
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.856);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-fluid h1 p {
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: sans-serif;
+}
+
+.col-lg {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.911);
+    height: 1000px;
+    margin: auto;
+    padding: 20px;
+    font-weight: lighter;
+    width: auto;
+}
+
+@media (min-width: 1200px) {
+    .col-lg {
+      width: auto;
+    }
+  }
+   
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md {
+        width: 100%;
+        height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm {
+        width: 90%;
+        height: auto;
+  }
+}
+@media (max-width: 768px) {
+    .col-xs {
+        width: 80%;  
+        height: auto;
+        padding: 10px;
+
+  }
+}
+  
